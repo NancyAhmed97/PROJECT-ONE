@@ -1,0 +1,333 @@
+
+  /* For mobile phones: */
+
+/*section one */
+
+.one
+{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    height: 100vh;
+
+      
+}
+/*Nav bar */
+.navbar
+{
+    background-color: transparent !important;
+}
+.navbar-brand img
+{
+    width: 50%;
+}
+.navbar-nav
+{
+    margin-left: 230px !important;
+    color: white;
+    font-family: Alegreya, sans-serif;
+
+}
+.navbar-nav li a
+{
+    color: white !important;
+    padding: 15px !important;
+}
+ .nav-link:hover
+{
+    color: #686868 !important;
+}
+
+.swipUp
+{
+    display: none;
+    position: fixed;
+    right:26px;
+    bottom: 26px;
+    cursor: pointer;
+    z-index: 333;
+    text-decoration: none;
+    transition: 3s;
+    color: gray;
+}
+.swipUp i{
+font-size: 25px;
+border: 1px solid #EEE;
+border-radius: 50%;
+width: 35px;
+height: 35px;
+line-height: 1.3;
+background-color: #FEFEFE;
+box-shadow: 0 0 5px 0 #414040;
+}
+
+
+/*Boody*/
+#scontainer
+{
+text-align: center;
+margin-top: 150px;
+color: white;
+}
+#scontainer h1
+{
+    font-size: 76px;
+    font-weight: 100;
+    font-family: Alegreya,serif;
+
+}
+#scontainer p
+{
+    font-size: 24px;
+    font-family: Alegreya, Sans;
+    font-weight: 300px;
+    line-height: 1.86em;
+
+
+}
+
+.fbutton
+{
+    background-color: #8e7754;
+    border:2px solid #8e7754;
+    width: 130px;
+    height: 55px;
+color: white;
+border-radius: 5px;
+
+
+}
+.sbutton
+{
+    background-color: transparent ;
+    border:2px solid white;
+    width: 130px;
+    height: 55px;
+color: white;
+margin-left: 17px;
+border-radius: 5px;
+
+}
+button:hover
+{
+    background-color: white;
+    color: black;
+}
+
+
+/*section two*/
+.two
+{
+    
+    padding: 90px 0px;
+}
+.col
+{
+    width: 50%;
+}
+.col img
+{
+    width: 95%;
+}
+.scol
+{
+   padding-top: 40px;
+}
+.scol h2 , p
+{
+    margin-bottom: 20px !important;
+}
+.scol  p
+{
+    margin-bottom: 25px !important;
+}
+.two .icon
+{
+    margin-bottom: 15px;
+}
+.scol  i
+{
+    font-size: 20px;
+    border: 1px solid rgba(104, 104, 104, 0.25);
+    padding: 10px;
+    border-radius: 50%;
+    color: #8e7754;
+    margin-right: 7px;
+}
+/*section three */
+.three
+{
+    
+    background-color: #8080800d;
+}
+
+/*section four */
+.four
+{
+     
+   
+    padding: 90px 0px 60px 0px;
+    text-align: center;
+}
+.four .container
+{
+    width: 1170px;
+}
+
+.four .header
+{
+    margin-bottom: 25px;
+}
+.four .footer .card
+{
+  display: inline-block;
+  width: 360px !important;
+}
+/*section five */
+.five
+{
+    background-color: #8080801f;
+    padding: 90px 0px 60px 0px;
+}
+.five .fcol h2
+
+{
+ margin-bottom: 25px;
+}
+.five .fcol p
+{
+    margin-bottom: 25px !important;
+}
+.five .icon i
+{
+    font-size: 18px;
+background-color:  #8e7754;
+    padding: 10px;
+    border-radius: 50%;
+    color:white;
+    margin-right: 12px;
+
+}
+.five .icon a
+{
+ text-decoration: none;
+ color: #686868;
+
+}
+.five .icon a:hover
+{
+    color: #8e7754;
+}
+
+
+/*section six */
+.six .header
+{
+    background-color: #403d38;
+    padding: 50px 0px;
+}
+.six .header h4
+{
+    color: white;
+    margin-bottom: 25px;
+}
+.six .header span,p
+{
+    color: #969696;
+
+}
+
+.six .header .scol 
+{
+    margin-top: -40px;
+
+}
+.six .header .scol div
+{
+    border-bottom: 1px solid #8080808f;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+
+}
+
+.six .thcol div
+{
+    border-bottom: 1px solid #8080808f;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.six .footer
+{
+    background-color: #353330;
+    padding: 50px 20px;
+    text-align: center;
+
+}
+.six .header .foicon div
+{
+    border-bottom: 1px #dcdcdc4f solid;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.six .header .foicon
+{
+    background-image: url(../images/contact-details-map.png);
+    background-size: 100% 80%;
+    
+
+}
+
+.six .header .foicon i
+{
+    color: #969696;
+    margin-right: 15px;
+}
+.six .header .foicon a
+{
+    color: #969696;
+    text-decoration: none;
+    
+}
+
+.six .footer p
+{
+    padding: 15px 0px;
+    color: #686868;
+
+}
+.six .footer .icon
+{
+    margin-top: -20px;
+}
+.six .footer .icon i
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+color: gainsboro;    
+background-color: gray;
+padding-top: 10px;
+margin-right: 3px;
+
+}
+.six .footer .icon .fa-facebook-f:hover
+{
+    background-color: #3b5998;
+    color: white;
+}
+.six .footer .icon .fa-google-plus-g:hover
+{
+    background-color: #dd4b39;
+    color: white;
+}
+.six .footer .icon .fa-linkedin-in:hover
+{
+    background-color: #007bb5;
+    color: white;
+}
+.six .footer .icon .fa-twitter:hover
+{
+    background-color: #00aced;
+    color: white;
+}
+
+
